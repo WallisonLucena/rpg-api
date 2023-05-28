@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rpg
+    username: postgres
+    password: postgres
+  jpa:
+    ddl-auto: update
+    show-sql: false
